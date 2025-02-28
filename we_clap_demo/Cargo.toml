@@ -3,12 +3,11 @@ name = "we_clap_demo"
 version = "0.1.0"
 edition = "2024"
 authors = ["Jellybean Stonerfish <jellybean.stonerfish@gmail.com>"]
-edition = "2024"
 include = ["LICENSE-APACHE", "LICENSE-MIT"]
 
 [dependencies]
 clap = { version = "4.5.31", features = ["derive"] }
-we_clap = { version = "0.1.0", path = "../../we_clap", features = ["web-alert"] }
+we_clap = { version = "0.1.0", features = ["web-alert"] }
 
 # We will depend on cliw here just for the example program output of the args.
 # Your program doesn't need to depend on cliw for we_clap to work 

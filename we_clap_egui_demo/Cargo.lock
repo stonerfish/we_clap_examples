@@ -2876,6 +2876,8 @@ dependencies = [
 [[package]]
 name = "we_clap"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d42488ceb3cc82ded6e178b6b3dd66d9000ab1063388ba8269f37a516ff3688c"
 dependencies = [
  "clap",
  "cliw",

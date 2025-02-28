@@ -171,6 +171,15 @@ dependencies = [
 ]
 
 [[package]]
+name = "quick_builder"
+version = "0.1.0"
+dependencies = [
+ "clap",
+ "cliw",
+ "we_clap",
+]
+
+[[package]]
 name = "quote"
 version = "1.0.38"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -268,18 +277,11 @@ dependencies = [
 [[package]]
 name = "we_clap"
 version = "0.1.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d42488ceb3cc82ded6e178b6b3dd66d9000ab1063388ba8269f37a516ff3688c"
 dependencies = [
  "clap",
  "cliw",
-]
-
-[[package]]
-name = "we_clap_demo"
-version = "0.1.0"
-dependencies = [
- "clap",
- "cliw",
- "we_clap",
 ]
 
 [[package]]
