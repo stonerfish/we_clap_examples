@@ -65,8 +65,8 @@ fn main() {
             .start(
                 canvas,
                 web_options,
-                Box::new(|cc| Ok(Box::new(we_clap_egui_demo::Hello::new(cc, opts)))),
                 // pass the cli options to the closure
+                Box::new(|cc| Ok(Box::new(we_clap_egui_demo::Hello::new(cc, opts)))),
             )
             .await;
 
