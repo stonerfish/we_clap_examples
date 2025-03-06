@@ -2,7 +2,7 @@
 name = "we-clap_egui_demo"
 version = "0.1.0"
 authors = ["Jellybean Stonerfish <jellybean.stonerfish@gmail.com>"]
-edition = "2024"
+edition = "2021"
 include = ["LICENSE-APACHE", "LICENSE-MIT"]
 
 [package.metadata.docs.rs]
